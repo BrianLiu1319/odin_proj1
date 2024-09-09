@@ -47,7 +47,9 @@
     background-color:#1F2937 ;
 }
 
-ul {
+
+
+.header_list {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -55,7 +57,125 @@ ul {
     display: flex;
 }
 
+.random_block {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+.random_info {
+    display: flex;
+    justify-content: center;
+
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 36px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
 
 
+.round_imgs{
+    display: flex;
+    justify-content: center;
+}
 
-  
+.random_list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0px 50px;
+
+}
+
+.list_box {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 15%;
+    margin: 0 20px;
+}
+
+.round_list_img{
+    display: flex;
+    justify-content: center;
+
+}
+.cat{
+    border-radius: 5px;
+
+}
+
+
+.round_list_sub {
+    display: flex;
+    justify-content: center;
+
+}
+
+.quote_block{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+
+}
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote_author {
+    display:flex;
+    justify-content: end;
+    color: #1F2937;
+    font-weight: 900;
+}
+.ad_block{
+    padding: 100px 30px;
+}
+.blue_block {
+    background-color: #3882f6;
+    padding: 20px 20px;
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 5px;
+
+
+    justify-content: space-around;
+}
+
+.action_block_1 {
+    color:white;
+    font-weight: 900;
+    margin-bottom:5px;
+}
+.action_block_2 {
+    
+    color: white;
+}
+
+.action_button{
+    border-radius: 5px;
+
+    outline: solid white;
+    background-color: #3882f6;
+    color: white;
+    border:#3882f6;
+    margin-top: 10px;
+    padding: 10px 20px;
+}
+
+
+.footer_block {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
